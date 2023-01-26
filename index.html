@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tourism</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <div class="container">
+        <div class="navbar">
+            <img src="/assets/logo/17e0af108185131.Y3JvcCwxOTE3LDE1MDAsNDIsMA.jpg" alt="">
+            <h3> Pakistan Tourism</h3>
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">Room</a>
+                <a href="">About Us</a>
+                <a href="">Pages</a>
+                <a href="">News</a>
+                <a href="">Contact</a>
+                <img src="/assets/logo/icons8-search-30.png" alt="">
+            </div>
+            <div class="left-corner" onclick="myfunction()">
+                <h4>View Package</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="slideshow" id="slideshow-container">
+        <div id="slides">
+            <div class="mySlides" class="slide">
+                <img src="/assets/images/nature1.webp">
+            </div>
+
+            <div class="mySlides " class="slide">
+                <img src="/assets/images/nature2.webp">
+
+            </div>
+
+            <div class="mySlides" class="slide">
+
+                <img src="/assets/images/nature3.png">
+            </div>
+            <div class="mySlides " class="slide">
+
+                <img src="/assets/images/nature4.jpg">
+            </div>
+            <div class="mySlides " class="slide">
+
+                <img src="/assets/images/nature5.jpg">
+            </div>
+            <div class="mySlides " class="slide">
+                <img src="/assets/images/nature6.jpg">
+            </div>
+        </div>
+        <div id="slide-controller">
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>
+
+        </div>
+
+        <div id="dot-controller" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+
+    <div class="search-form">
+        <div class="check">
+            <div class="check-in">
+                <h1>Check in</h1>
+                <input type="date" name="check in" id="" class="date">
+            </div>
+            <div class="check-out">
+                <h1>check out</h1>
+                <input type="date" name="check in" id="" class="date">
+            </div>
+        </div>
+        <div class="selection">
+            <div class="room">
+                <h1>Rooms</h1>
+                <select name="room" id="" class="select">
+                    <option value="00">00</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                </select>
+            </div>
+            <div class="Adults">
+                <h1>Adults</h1>
+                <select name="adult" id="" class="select">
+                    <option value="00">00</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                </select>
+            </div>
+            <div class="children">
+                <h1>Children</h1>
+                <select name="children" id="" class="select">
+                    <option value="00">00</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                </select>
+            </div>
+        </div>
+        <div class="check-availablity">
+            <div class="availablity">
+                <h4>Check Availablity</h4>
+            </div>
+        </div>
+
+    </div>
+    <div class="hotel">
+        <div class="welcome">
+            <p>ABOUT US</p>
+            <h1>Welcome to <br>
+                Roberto Hotel Luxury</h1>
+            <h4>With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a
+                perfect stay no matter where your destination.</h4>
+            <h5>Manager:<mark class="green"> Michen Taylor</mark></h5>
+
+        </div>
+        <div class="container-2">
+            <div class="img-cards">
+                <div class="img-card-1">
+                    <img src="/assets/images/img1.jpg" alt="">
+                </div>
+                <div class="img-card-2">
+                    <img src="/assets/images/img3.jpg" alt="">
+                </div>
+            </div>
+            <div class="img-card-3">
+                <img src="/assets/images/img4.jpeg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+    <div class="cards">
+        <div class="card-1">
+            <img src="/assets/images/steering-wheel.png" alt="">
+            <h1>Transportion</h1>
+        </div>
+        <div class="card-2">
+            <img src="/assets/images/img1.jpg" alt="">
+            <h1>Services</h1>
+        </div>
+        <div class="card-3">
+            <img src="/assets/images/fork.png" alt="">
+            <h1>Spa Relaxtion</h1>
+        </div>
+        <div class="card-4">
+            <img src="/assets/images/glass-cheers.png" alt="">
+            <h1>Restaurant</h1>
+        </div>
+        <div class="card-5">
+            <img src="/assets/images/steering-wheel.png" alt="">
+            <h1>Bar & Drink</h1>
+        </div>
+    </div>
+    <div class="packages" id="price">
+        <div class="package-1">
+            <div class="pkg-images">
+                <img src="/assets/images/img1.jpg" alt="">
+            </div>
+            <div class="pkg-detail-1">
+                <h1>Best king Room</h1>
+                <h2>$500&nbsp &nbsp/Day</h2>
+            </div>
+        </div>
+        <div class="package-2">
+            <div class="pkg-images">
+                <img src="/assets/images/img3.jpg" alt="">
+            </div>
+            <div class="pkg-detail-2">
+                <h1>Best king Room</h1>
+                <h2>$500&nbsp &nbsp/Day</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="foot-color">
+                <div class="foot-img">
+                    <img src="/assets/logo/17e0af108185131.Y3JvcCwxOTE3LDE1MDAsNDIsMA.jpg" alt="">
+                    <h1>Pakistan Tourism</h1>
+                </div>
+                <div class="info">
+                    <h1>Information</h1>
+                    <p>Home <br>Room <br>About Us <br> Pages <br>News </p>
+                </div>
+                <div class="services">
+                    <h1>packages</h1>
+                    <p>Neelam Valley <br>Swat Valley <br>babusar Top <br>Hunza Valley <br>Pir chinasi <br>Azad Kashmir
+                        <br>Naran Kaghan Valley <br>
+                        Skardu Valley <br> faidy Measdows <br>Mallam jaba</p>
+                </div>
+                <div class="contact">
+                    <h1>Contact</h1>
+                    <h2>+92-311-1112276</h2>
+                    <h3>Email:paktourism@gmail.com</h3>
+
+                </div>
+            </div>
+            <hr class="black" >
+            <div class="all-rights">
+                <h1>Copyright © 2022 IFW Digital Marketing, LLC</h1>
+            </div>
+        </div>
+    </footer>
+
+    </script>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        function myfunction() {
+            window.open("packages.html")
+
+        }
+
+    </script>
+
+    <!-- <script>
+        {
+        var img = document.getElementById('price');
+
+        var slides = ['/assets/images/img1.jpg', '/assets/images/img2.jpg', '/assets/images/img3.jpg', '/assets/images/img4.jpeg', '/assets/images/img5.jpg', '/assets/images/img6.webp'];
+
+        var Start = 0;
+
+        function packages() {
+            if (Start < slides.length) {
+                Start = Start + 1;
+            }
+            else {
+                Start = 0;
+            }
+            console.log(img);
+            img.innerHTML = "<div class=<img src=" + slides[Start] + "></div>";
+            showSlides(Start)
+        }
+        setInterval(packages, 5000);}
+
+    </script>  -->
+
+</body>
+
+</html>
